@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "bootstrap-sha": "ff6d4d03d5c5525878cf56fd9c75983084239d2c",
+  "plugins": ["cargo-workspace"],
+  "release-type": "rust",
+  "packages": {
+    "program": {},
+    "program-common": {},
+    "program-ebpf": {}
+  }
+}
